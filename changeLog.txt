@@ -1,0 +1,151 @@
+#Jan 17
+#Added classes (as in rogue mage, warrior etc.) with unique stats
+#Added custom character creator
+#Added all stat set and get functions
+#Added show functions
+#Created enemies
+    #list of enimes and an enemy class
+#Added location
+    #Player now has an x and y cordnate in a world
+#Added towns
+    #Towns randomly spawn on the map. They have no purpose as of now, but eventualy you will be able to shop
+
+#Jan 19
+#Added weapons
+    #Each class starts with a weapon now
+#Added enemy attack system
+    #Game will now check if player is dead after each monster attack
+#Added speed (a miss/hit mechanic)
+#Added somewhat of an inventory system (You can look at stats and notes)
+#Added notes
+    #If theres a special event, it will be added to a journal
+#Added lots of commenting to code
+#Added the beginning of a treasure system
+#Added random event where you can find cordnates of treasure or a city
+#Added mana system
+#Added run away system
+#Started a saving system (This feature probably won't be done in time)
+
+#Jan 20
+#Speed system balanced
+#Increased number of towns
+#When you start the game, you now get 3 town locations in your notes
+#Added spells!!! (Stat based ones)
+#Added regeneration of health and mana
+#Made text more clear and readable
+#Added more enemies
+    #Added scaling eneimes
+        #Enimies scale up with your location, getting harder the farther you go
+        #Each batch of enemies is a list of tuples
+        #Each list of enemies gives xp acording to their group
+#Started a list of common weapons
+#balanced damage system
+#Added quality of life chages to inventory/rest phase
+#Fixed bug where game crashes when enemy event happens at 0,0 (It now shows a creepy message instead ;) )
+
+#Jan 21
+#Fixed bug: If you reapeatedly stay in town, it will add the event each time to notes
+#Added xp when discovering location for the first time
+
+#Jan 22
+#Added a random name generator
+    #This generator puts random consanants and vowels together to make a word that isn't entirely giberish
+#Added a chance to have a completely random enemy with random name and stats
+#Fixed bug where if the user took no damage, nothing would display
+#Added block option in combat
+    #This rasises your speed and defence for the next blow
+#Added enemy lvl scaling
+#Buffed eneimes' stats and made them more consistant
+#Added more enemies
+#ADDED LOOT SYSTEM
+    #Enemies and treasure chests now contain loot; Either a weapon or spell
+#COMPLETED ALL REQUIREMENTS FOR PROJECT
+#Added money
+#Added shopping system
+#Added inventory
+#Balanced starting weapons
+#Added starting gear in inventory; A healing spell and a rock. Yes, a rock
+#Switched warrior starting spell from Heal to Defence Stance
+#Changed spell hit chance system; It now involves max mana and current mana to be more accurate
+    #This buffs magic users by a lot as they dont need to depend on speed but on their mana
+    #This also nerfs character without much mana
+#Nerfed max stat of random enemies
+#Tougher eneimes now come more gradually
+
+#Jan 23
+#Increased cost of items in shop
+#Removed duplicate items in shop
+#Fixed bug where attack, defence and speed were not ajusted properly after leveling up from battle
+
+#Jan 24
+#Added selling option when in town
+    #Items sold will be available to buy back when in buying option
+#Fixed incorrent damage being displayed in inventory
+#Made self targeting spells cost more
+#Added more spells and weapons
+
+#Jan 25
+#Added duplication check with cordnates
+#Added shrines in the world (A beta feature that I might use later)
+    #If you are near shines, a message will display indicating you are near one
+    #Shrines can be used to upgrade a stat of your choice
+#Added shrinestones
+    #Shrinestone are the currency used when using the shrine
+    #They will drop from enemies and treasure chests
+#Added chance to recive a rag with shrine cordnates
+#Updated loot table
+    #There is now a chance to get a weapon and spell at the same time. There is also now a chance to get a special weapon or spell
+#Added special spells and weapons
+    #These are rare items that have a unique effect when used
+#Updated battle and magic systems to be more effecient
+
+#Jan 26
+#Reordered movement phase to after location checking
+#Added a way to sort cordnates closest to player
+#Changed beginning towns from random to the closest town, middle town and farthest town
+#Added wishing ability to shrines
+    #You may give shrinstones to recive a good weapon or spell. The more you offer, the greater the chance for a legendary
+#Added abilty to spot a location from a distance
+#Towns will no longer only spawn close to beginning location
+#Increased number of towns that can spawn
+#Coded a boss (not implemented in game yet)
+#Added more enemies
+    #Added 2 new tiers of eneimes as well
+
+#Jan 27
+#Fixed direction bugs
+#Increased chance of finding a note
+#Added a world map!!!
+#Cleaned up ui of menu so its more organized and user friendly
+#Nerfed special weapons
+
+#Jan 28
+#Added traps you can step on
+    #You have a slight chance to detect the trap around you to warn you
+#Added mountains
+    #Climbing mountains also rewards you with a lot of shrinestones
+    #Climbing also gives you increased view of the surrounding area
+#Cleaned up ui
+
+#Jan 29
+#Removed custom enemies
+#Fixed damage not being applied to player's health
+
+#Feb 1
+#Added quests
+#Nerfed Hammer of Decimation
+#Fixed moutnain-top viewing
+#Added fast travel ability to towns
+#Added descriptions to special spells and weapons
+#Cleaned up ui
+
+Feb 2
+#Removed starting towns
+#Added kingdoms as a starting "towns" instead
+	#The main purpose of kingdoms is to fast travel
+#Buffed all enemies
+
+#Feb 3
+#Added damage effect when going out of bounds
+#Changed how level scaling works with enemies
+#Treasure chest bug fixes
